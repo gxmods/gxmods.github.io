@@ -29,7 +29,7 @@ body
 #wb_PanelMenu1 a, #PanelMenu1_markup li a
 {
    display: block;
-   text-align: center;
+   text-align: left;
    vertical-align: middle;
 }
 #PanelMenu1_markup
@@ -80,8 +80,8 @@ body
    border: 1px solid #2E2E2E;
    background-color: #3E3E3E;
    font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
+   font-weight: bold;
+   font-size: 27px;
    font-style: normal;
    text-decoration: none;
    -webkit-transition: all 0.3s ease-in-out;
@@ -91,10 +91,11 @@ body
 {
    color: #F7F7F7;
    border: 1px solid #2E2E2E;
+   border-radius: 5px;
    background-color: #3E3E3E;
    font-family: Arial;
-   font-weight: normal;
-   font-size: 13px;
+   font-weight: bold;
+   font-size: 27px;
    font-style: normal;
    text-decoration: none;
    -webkit-transition: all 0.3s ease-in-out;
@@ -119,29 +120,56 @@ body
 }
 #PanelMenu1
 {
-   padding-top: 86px;
+   padding-bottom: 74px;
 }
 #PanelMenu1:after
 {
    position: absolute;
    left: 50%;
-   top: 16px;
-   width: 70px;
-   height: 70px;
-   margin-left: -35px;
+   bottom: 24px;
+   top: auto;
+   width: 50px;
+   height: 50px;
+   margin-left: -25px;
    content: "\f0c9";
    display: inline-block;
    font-family: FontAwesome;
-   font-size: 70px;
-   line-height: 70px;
+   font-size: 50px;
+   line-height: 50px;
 }
 #PanelMenu1
 {
-   line-height: 12px;
+   line-height: 24px;
    width: 98px;
-   height: 12px;
+   height: 24px;
    position: absolute;
    z-index: 999;
+}
+#PanelMenu1_markup ul li i
+{
+   font-size: 50px;
+   padding: 0px 10px 0px 0px;
+   vertical-align: middle;
+   width: 50px;
+}
+#PanelMenu1_markup span
+{
+   display: inline-block;
+   height: 50px;
+   vertical-align: middle;
+   line-height: 50px;
+}
+#PanelMenu1-footer
+{
+   bottom: 0;
+   color: #F7F7F7;
+   font-family: Arial;
+   font-size: 27px;
+   left: 0;
+   padding: 0px 0px 27px 0px;
+   position: absolute;
+   text-align: center;
+   width: 100%;
 }
 #wb_Text1 
 {
@@ -205,6 +233,19 @@ body
    text-align: left;
 }
 #wb_Text5 div
+{
+   text-align: left;
+}
+#wb_Text6 
+{
+   background-color: transparent;
+   background-image: none;
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   text-align: left;
+}
+#wb_Text6 div
 {
    text-align: left;
 }
