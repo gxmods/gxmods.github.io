@@ -8,7 +8,7 @@ div#container
 body
 {
    background-color: #87BCEA;
-   background-image: url(images/index_bkgrnd.png);
+   background-image: url('images/index_bkgrnd.png');
    background-repeat: repeat-y;
    color: #000000;
    font-family: Arial;
@@ -17,6 +17,28 @@ body
    line-height: 1.1875;
    margin: 0;
    text-align: center;
+}
+a
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+a:visited
+{
+   color: #800080;
+}
+a:active
+{
+   color: #FF0000;
+}
+a:hover
+{
+   color: #0000FF;
+   text-decoration: underline;
+}
+input:focus, textarea:focus, select:focus
+{
+   outline: none;
 }
 #Shape1
 {
@@ -73,9 +95,9 @@ body
 #wb_CssMenu1 li:hover a, #wb_CssMenu1 a:hover
 {
    color: #FFFFFF;
+   border: 1px solid #2E6DA4;
    background-color: #337AB7;
    background-image: none;
-   border: 1px solid #2E6DA4;
 }
 #wb_CssMenu1 li.firstmain
 {
@@ -97,6 +119,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -110,6 +133,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -123,6 +147,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -136,6 +161,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    text-align: left;
@@ -154,6 +180,7 @@ body
    background-color: transparent;
    background-image: none;
    border: 0px solid #000000;
+   border-radius: 0px;
    padding: 0;
    margin: 0;
    text-align: left;
